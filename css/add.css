@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dawning+of+a+New+Day&family=Petit+Formal+Script&display=swap');
+
+
+form{
+    margin-top: 60px;
+}
+
+
+input[type="number"]{
+
+       width: 500px;
+       height:30px;
+       margin-top:15px;
+       border-color: #ccabd8;
+       font-size: 13px;
+}
+
+select {
+    width: 300px;
+    height:30px;
+    margin-top:15px;
+    border-color: #ccabd8;
+}
+
+
+label{
+  width: 200px;
+  display: inline-block;
+  padding: 20px;
+  text-align: left;
+}
+
+label.color {
+  color: #575756;
+}
+
+.format input[type=text],input[type=number]{
+width: 500px;
+height: 30px;
+background-color: transparent;
+color: #575756;
+border: 0;
+border-bottom: 2px solid #575756;
+width: 400px;
+padding: 8px 0;
+border-radius: 0;
+outline: none;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 20px;
+text-align: center;
+font-size: 13px;
+}
+.format select{
+  width: 400px;
+  height: 30px;
+
+  border: gray;
+  border: 1;
+}
+.format{
+  text-align: center;
+}
+.format .files{
+  padding-right: 100px;
+  position: relative;
+
+
+}
+
+.opt-value {
+  color:#575756;
+}
+
+.format input[type=submit]{
+text-align: center;
+font-size: 15px;
+transition: all 0.5s;
+margin: 5px;
+padding: 14px 40px;
+background-color: #575756;
+color: white;
+border: none;
+font-style: italic;
+letter-spacing: 0.1em;
+outline: none;
+cursor: pointer;
+}
+
+#custom-button {
+  padding: 10px;
+  color: white;
+  background-color: gray;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+
+}
+p{
+  display: i
+
+}
+#custom-button:hover {
+  background-color: #00b28f;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #aaa;
+}
+h1{
+  text-align: center;
+  font-family: "Petit Formal Script";
+}
+select{
+  font-family: "Montserrat";
+}

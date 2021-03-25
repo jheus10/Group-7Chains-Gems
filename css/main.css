@@ -1,0 +1,23 @@
+#con {
+    text-align: center;
+    width: 100%;
+    height:auto;
+    /* background-color:red; */
+    display: inline-block;
+    /* border: 3px solid #f2f2f2; */
+}
+
+.content {
+    width: 390px;
+    height:450px;
+    /* background-color:yellow; */
+    display:inline-block;
+    padding: 10px;
+    margin-top:10px;
+    /* border: 0px solid #f2f2f2; */
+}
+
+/* img {
+  width: 370px;
+  height: 370px;
+} */

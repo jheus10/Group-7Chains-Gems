@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dawning+of+a+New+Day&family=Petit+Formal+Script&display=swap');
+
+html, body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+    height: auto;
+}
+
+body { 
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+/* MGA BAGONG DAGDAG EHEHE */
+
+.space {
+    height:20px;
+}
+
+.big-section {
+    height: 100px;
+}
+
+.banner { 
+    position: relative;
+    margin-top: -10px;
+}
+    
+.banner_wrapper { 
+    background-color: #e2e2e2;
+    color: #575756;
+    max-width: auto;
+    right: 0px;
+    left: 0px;
+}
+    
+.banner_text { 
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    display: block;
+    padding: 7px 20px 6px;
+    transition: opacity 0.75s ease;
+    text-align: center;
+}
+
+.title-logoz {
+    max-width: 300px;
+    height: auto;
+}
+
+.confirm-section {
+    text-align: center;
+    background: white;
+	border: none;
+	border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(61, 61, 61, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 30px;
+	box-sizing: border-box;
+	width: 600px;
+    height:auto;    
+}
+
+.confirm-title {
+    color: #575756;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.confirm-one {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.confirm-two {
+    font-size: 13px;
+}
+
+.confirm-check {
+    color:#dfbd69;
+    font-size: 70px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.submit-butt {
+    padding: 14px 40px;
+    background-color: #575756;
+    color: white;
+    border: none;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    outline: none;
+    cursor: pointer;
+    width: 250px;
+    
+}
+
+.submit-butt-2 {
+    padding: 14px 40px;
+    background-color: transparent;
+    color: #575756;
+    border: 1px solid #575756;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

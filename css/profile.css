@@ -1,0 +1,202 @@
+/*FOR ORDERS TABLE */
+table {
+    text-align: center;
+    border: 2px solid #575756;
+    box-shadow: 0 0 5px 0 rgba(109, 107, 107, 0.2), 0 6px 20px 0 rgba(107, 105, 105, 0.19) !important;
+}
+
+.title_th {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+}
+
+th{
+    padding: 20px;
+    background-color: #a9a9a9;
+}
+
+td{
+    border: 1px solid #d3d3d36b;
+    color:#575756;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+td.order_id{
+    text-align:left;
+    background-color: #dfbe696e;
+    color:white;
+}
+
+/*PROFILE DIV */
+.prof_con {
+    width:80%;
+    /* background-color:red; */
+}
+.profile_info{
+    /* background-color:yellow; */
+    text-align:left;
+    display:flex; 
+    padding: 20px;
+}
+
+/*ICON DIV */
+.avatar {
+    /* background-color:white; */
+    width:250px;
+    z-index: 1;
+    position:relative;
+    margin-right:2%;
+}
+
+/*If wala pang pic si user, fontawesome icon muna */
+.fa-user-circle{
+    font-size:250px;
+    width:250px;
+    height:250px;
+}
+
+/*If may avatar na si user */
+#icon {
+    z-index:2;
+    position:relative;
+    
+}
+
+/*Edit Button */
+.btn {
+    float:right;
+    z-index:3;
+    position:relative;
+    bottom:22px;
+}
+
+.btn-design {
+    background-color: #dfbd69;
+    padding: 4px;
+    color: white;
+    border: none;
+    font-style: italic;
+    cursor: pointer;
+}
+
+/*To hide div for file, update, & cancel */
+#div_cancel, #cancel, #edit_pass, #inputpass{    
+    display: none;  
+}
+
+#edit_pass {
+    text-align: center;
+}
+
+/*Text boxes */
+input{
+    margin-bottom:10px;
+    border-style: none;
+    font-size:15px;
+    /* background-color: transparent; */
+}
+
+#btn_edit_info{
+    float:right;
+    margin-right:10px;
+}
+
+#btn_edit_info{
+    float:right;
+    margin-right:10px;
+}
+
+#btn_edit_info{
+    float:right;
+    margin-right:10px;
+}
+
+.order-details {
+    display:inline-block;
+}
+
+.orderd-title {
+color:#dfbd69;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 0.2em;
+margin: 0 auto;
+}
+
+.one-hr {
+    border: 0.5px solid #575756;
+    width: 40px;
+    margin-top: 30px;
+}
+
+.text-box {
+    background-color: transparent;
+    color: #575756;
+    border: 0;
+    border-bottom: 2px solid #575756;
+    padding: 8px 0;
+    border-radius: 0;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.pass-word {
+    background-color: transparent;
+    color: #575756;
+    border: 0;
+    border-bottom: 2px solid #575756;
+    padding: 8px 0;
+    border-radius: 0;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.submit-butt {
+    padding: 14px 40px;
+    background-color: #575756;
+    color: white;
+    border: none;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    outline: none;
+    cursor: pointer;
+    width: 19%;
+}
+
+.submit-butt-2 {
+    padding: 14px 40px;
+    background-color: transparent;
+    color: #575756;
+    border: 1px solid #575756;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    margin-top: 10px;
+    width:19%;
+}
+
+.submit-butt-3 {
+    padding: 14px 40px;
+    background-color: transparent;
+    color: #dfbd69;
+    border: 1px solid #dfbd69;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    margin-top: 10px;
+    width:30%;
+}
+
+.profile-label {
+    color: #575756;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    margin-left: 20px;
+}
+

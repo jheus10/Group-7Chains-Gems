@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dawning+of+a+New+Day&family=Petit+Formal+Script&display=swap');
+@import url("https://www.fonts.com/font/linotype/linotype-didot?QueryFontType=Web&src=GoogleWebFonts");
+*{
+  max-width: 500%;
+
+
+}
+
+.wrap{
+  position: absolute;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  overflow: visible;
+  top: 150px;
+}
+.wrap button {
+  position: relative;
+  background-color: #575756; /* gold */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  top: 220px;
+  box-shadow: 200px;
+  z-index: 2;
+
+}
+.button {
+  border-radius: 6px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 220px;
+  height: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: "Petit Formal Script";
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#slider{
+  overflow:hidden;
+
+}
+#slider figure{
+  overflow: hidden;
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+  top: 150px;
+  z-index: 1;
+}
+#slider figure img{
+  float: left;
+  width: 20%;
+  height: 700px;
+  transition: 1s;
+}
+#slider figure img:hover{
+  transform: scale(1.1);
+}
+@keyframes slider {
+  0%{
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+100%{
+    left: -400%;
+  }
+
+}
+#footer{
+  max-width: 100%;
+  position: absolute;
+
+}
+.footer-bottom{
+  max-width: 100%;
+  position: absolute;
+}
+.marquee{
+  max-width: 100%;
+
+  color: rgb(19, 14, 14);
+}
+
+
+header{
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: -70px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  transform: translateY(70px);
+  transition: transform 500ms ease, background 500ms ease;
+  -webkit-transition: transform 500ms ease, background 500ms ease;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+  background-image: url("../images/background.png");
+  height: 160px;
+
+}
+header img{
+  position: relative;
+  top: -25px;
+  padding-top: 0px;
+}
+.icons{
+  position: relative;
+  top: -30px;
+}
+.nav{
+  position: relative;
+  top: -40px;
+}
+header.sticky{
+background-color: white;
+}
+.golden-title {
+  font-family: "Petit Formal Script",cursive !important;
+  text-transform: capitalize;
+  color: #dfbd69;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.meaningful{
+  position: relative;
+  width: 100%;
+  display: block;
+  flex-direction: column;
+}
+.meaningful .prod1{
+overflow: hidden;
+position: absolute;
+float:right;
+  right: 300px;
+  top: 50px;
+  animation: fadeIn1 1s;
+  z-index: 2;
+}
+.meaningful-text{
+  position: absolute;
+  width: 450px;
+  padding: 50px;
+  text-align: center;
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+  color: gray;
+  line-height: 22px;
+  left: 50px;
+  top: 70px;
+}
+.text{
+  position: absolute;
+  padding-bottom: 50px;
+  font-family: "linotype didot", serif;
+  left: 110px;
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: black;
+  font-weight: lighter;
+  top: 70px;
+}
+.text2{
+  position: absolute;
+  padding-bottom: 50px;
+  font-family: "linotype didot", serif;
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: black;
+  font-weight: lighter;
+  right: 200px;
+  top: 80px;
+  width: 30%;
+}
+.meaningful .prod1 img{
+  width: 300px;
+  height: 350px;
+
+}
+.meaningful .prod2{
+  float:right;
+  overflow: hidden;
+  position: absolute;
+  right: 100px;
+  top: -100px;
+  animation: fadeIn2 1s;
+}
+
+
+.meaningful .prod2 img{
+  width: 300px;
+  height: 350px;
+
+}
+
+.meaningful .prod3{
+  top: 500px;
+  position: relative;
+  left: 100px;
+
+  display: block;
+  max-width: 90%;
+  max-height: 200px;
+  padding-bottom: 500px;
+}
+.meaningful .prod3 img{
+  width: 500px;
+  height: 500px;
+  left: -50px;
+  position: absolute;
+}
+.meaningful-text2{
+  position: absolute;
+  width: 450px;
+  padding: 50px;
+  text-align: center;
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+  color: gray;
+  line-height: 22px;
+  right: 120px;
+  top: 170px;
+}
+/**/
+.card-holder{
+  position: relative;
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  left: -35px;
+  padding-right: 80px;
+}
+.card{
+  cursor: pointer;
+  width: 270px;
+  height: 270px;
+  padding: 20px;
+
+}
+
+.front,.back{
+  width: 270px;
+  height: 270px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform 1s linear;
+
+}
+.front img{
+  width: 270px;
+  height: 270px;
+
+  background-size: cover;
+  overflow: hidden;
+}
+.back img{
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+.front{
+  transform: perspective(600px) rotateX(0deg);
+}
+.back{
+  background: #f1f1f1;
+  transform: perspective(600px) rotateX(-180deg);
+}
+.card:hover > .front{
+  transform: perspective(600px) rotateX(180deg);
+}
+.card:hover > .back{
+  transform: perspective(600px) rotateX(0deg);
+}

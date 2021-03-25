@@ -1,0 +1,358 @@
+/* LAGYAN NG <center> START NG BODY TAG LAHAT NG FILES HIHI :(( */
+/* LAGYAN NG <center> START NG BODY TAG LAHAT NG FILES HIHI :(( */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dawning+of+a+New+Day&family=Petit+Formal+Script&display=swap');
+
+
+html, body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+html {
+    /* scroll-behavior: smooth; */
+    max-width: 100%;
+    height: auto;
+}
+body { 
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* scroll to top button */
+
+/* .gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #575756e3;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.gotopbtn i{
+    margin-top: 15px;
+}
+
+.gotopbtn:active {
+    background: #575756e5;
+} */
+
+
+#backToTop{
+    background-color: #dfbd69;
+    width:50px;
+    height:50px;
+    display: inline-block;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+    position:fixed;
+    text-align: center;
+    font-size: 22px;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#backToTop:hover{
+    cursor: pointer;
+    background-color: #555;
+}
+
+#backToTop::after{
+    content: "\f062";
+    font-family: 'FontAwesome';
+    font-weight:normal;
+    font-style: normal;
+    line-height: 50px;
+    color: #fff;
+}
+
+#backToTop.show{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* banner on top of the page */
+
+.banner { 
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: -10px;
+}
+    
+.banner_wrapper { 
+    background-color: #e2e2e2;
+    color: #575756;
+}
+    
+.banner_text { 
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    padding: 7px 20px 6px;
+    transition: opacity 0.75s ease;
+    text-align: center;
+}
+  
+/* header and navigations */
+
+a {
+    text-decoration: none;
+}
+
+.header { 
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#logo { 
+    margin-top: 20px;
+    max-width: 130px;
+    height: auto;
+    float: left;
+    margin-left: 100px;
+}
+
+#title { 
+   max-width: 270px;
+   height: auto;
+}
+
+.nav { 
+    color: #575756;
+}
+
+.nav ul {
+    width: auto;
+}
+
+.nav li {  
+    display: inline;
+    padding: 40px;
+}
+
+.nav a {  
+    color: #575756;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.nav a:hover{
+    color: #dfbd69;
+    transition: color .4s ease;
+}
+
+
+/* icons (cart, profile, history, and logout)*/
+
+.icons {  
+    float: right;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+.icons i { 
+    font-size: 20px;
+    color: #575756;
+    padding-left: 30px;
+}
+
+/* for the shop all items */
+
+.items { 
+    position: relative;
+    text-transform: capitalize;
+    margin-top: 15px;
+    color: #575756;
+}
+
+.items-title {
+    font-size: 18px;
+}
+
+.items-price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.items-category {
+    position: relative;
+    margin-top: 90px;
+    animation: slide_up .8s ease;
+}
+
+@keyframes slide_up {
+    0% {
+        transform: translateY(45px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.items-category h1 { 
+    color:#dfbd69;
+    font-size: 45px;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.items-category-desc p{ 
+    color:#575756;
+    font-size: 15px;
+}
+
+.items-category-desc { 
+    width: 800px;
+}
+
+/* for footer */
+
+#footer{
+    z-index: -1;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    background-color: #e2e2e2;
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+    color: #575756;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer-logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 5px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom{
+    background: #b6b4b4;
+    max-width: 100%;
+    padding: 1px 0;
+}
+
+.footer-bottom p{
+    font-size: 11px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .7;
+    font-weight: 200;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 20px;
+}
+
+.socials a{
+    color: #575756;
+}
+
+.socials a i{
+    font-size: 21px;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i{
+    color: #dfbd69;
+}
+
+/*for filter */
+
+.dropdown-menu {
+    font-size: 16px;
+    margin-bottom: 0;
+    cursor: pointer;
+    background: none;
+    padding: 5px 24px;
+    border: 1px solid #797777;
+    color: #575756;
+    width: 300px;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+} 
+
+.filter {
+    display: inline-block;
+}
+
+.category-filter {
+    float: left;
+    margin-right: 40px;
+}
+
+.material-filter {
+    float: left;
+    margin-left: 40px;
+}
+
+/* for section space */
+
+.big-section {
+    height: 100px;
+}
+  
+section {
+    height:30px;
+}
+
+/*for search bar in navigation */
+
+.search-bar {
+    background-color: transparent;
+    color: #575756;
+    border: 0;
+    border-bottom: 2px solid #575756;
+    width: 180px;
+    padding: 8px 0;
+    border-radius: 0;
+    outline: none;
+}
+
+.button-search {
+    color: #575756;
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    margin-left: -30px;
+    outline: none;
+}
